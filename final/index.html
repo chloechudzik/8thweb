@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chloe Chudzik</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="intrests.html">Intrests</a></li>
+            <li><a href="photogallery.html">Photogallery</a></li>
+        </ul>
+    </div>
+    <img src="images/emma.jpg" width="250" alt="bhs">
+    <p style="color:black">This is me and my sister, Emma!</p>
+    <h1>About Me!</h1>
+    <p>My name is Chloe Chudzik; I am a student at Eastside Preperatory School and a gymnast at Pacific Reign Gymnastics. I am 13 years old and am 
+    in 8th grade. I have a mom, dad, two sisters, and two dogs. My dogs names are Taco and Peanut, which both are labradoodles. 
+    Taco is 8 years old, and Peanut is 4. My dad valuates prices of properties and my mom works for xbox at Microsoft. 
+    When my mom first joined microsoft, she actually worked on html and css (this was a long while ago). When I grow up I want to 
+    be an interior designer or a computer engineer. I have visited 11 countries including:
+    </p>
+    <ol>
+        <li>United States of America</li>
+        <li>Canada</li>
+        <li>Mexico</li>
+        <li>France</li>    
+        <li>Netherlands</li>
+        <li>Japan</li>   
+        <li>Taiwan</li>  
+        <li>Iceland</li>
+        <li>Spain</li>
+        <li>United Kingdom</li>
+        <li>Italy</li>
+         
+    </ol>
+    <p>However, this year I will be adding to my list of countries. I will be visiting Switzerland, Germany, and Austria with my family. It will make my 
+        list go from 11 countries visited to 14 countries visited! Increased by 3! I will also be going to Turks and Caicos with my mom and a couple of my
+        gymnastics friends for fun during Sprign Break! Technically, Turks and Caicos is a British Overseas Territory, so its not a country. 
+        However, I am still going out of the United States this year. Not including the countries I'm going to go to later this year, these are the 
+        countries I would love to go to one day:
+    </p>
+    <o1>
+        <li>Australia</li>
+        <li>Thailand</li>  
+        <li>Brazil</li>   
+        <li>Costa Rica</li>   
+        <li>Poland</li>  
+        <li>Denmark</li>  
+        <li>Dubai</li>    
+        <li>Bahamas</li>    
+    </o1>
+    <script>
+        alert('Hello, World!\nWelcome to my web page.');
+
+        function askName() {
+            var nameReturn = document.getElementById('ask-name');
+            var name = prompt('Please enter your name' , 'HERE')
+            if (name=='') {
+                alert('Please try again');
+            } else {
+                nameReturn.innerHTML = 'Hello' + name + '! Nice to meet you!';
+            }
+        }
+
+        function pFun() {
+            var p = document.getElementById('p-fun');
+            p.innerHTML='You just ran a function!';
+            p.style.color = 'red';
+            p.style.fontSize= '30px';
+            p.style.textAlign = 'center';
+        }
+    </script>
+</body>
+</html>
